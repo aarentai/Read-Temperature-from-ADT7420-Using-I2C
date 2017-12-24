@@ -1,0 +1,144 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Dec 29 23:28:18 2016
+# Process ID: 5068
+# Current directory: E:/vivado_projects/i2c_drive
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15480 E:\vivado_projects\i2c_drive\i2c_drive.xpr
+# Log file: E:/vivado_projects/i2c_drive/vivado.log
+# Journal file: E:/vivado_projects/i2c_drive\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_projects/i2c_drive/i2c_drive.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+open_hw
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+place_ports sw1 U11
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dis_data[15]} {dis_data[14]} {dis_data[13]} {dis_data[12]} {dis_data[11]} {dis_data[10]} {dis_data[9]} {dis_data[8]} {dis_data[7]} {dis_data[6]} {dis_data[5]} {dis_data[4]} {dis_data[3]} {dis_data[2]} {dis_data[1]} {dis_data[0]}]]
+place_ports {dis_data[15]} V11
+startgroup
+set_property package_pin "" [get_ports [list  sw2]]
+place_ports {dis_data[14]} V12
+endgroup
+place_ports sw2 V10
+place_ports {dis_data[13]} V14
+place_ports {dis_data[12]} V15
+place_ports {dis_data[11]} T16
+place_ports {dis_data[10]} U14
+place_ports {dis_data[9]} T15
+place_ports {dis_data[8]} V16
+save_constraints
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1 -noclean_dir 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close [ open E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v w ]
+add_files E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v
+update_compile_order -fileset sources_1
+close [ open E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/convert_to_bcd.v w ]
+add_files E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/convert_to_bcd.v
+update_compile_order -fileset sources_1
+remove_files E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/convert_to_bcd.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {seg[6]} {seg[5]} {seg[4]} {seg[3]} {seg[2]} {seg[1]} {seg[0]}]]
+place_ports {seg[6]} L18
+place_ports {seg[5]} T11
+place_ports {seg[4]} P15
+place_ports {seg[3]} K13
+place_ports {seg[2]} K16
+place_ports {seg[1]} R10
+place_ports {seg[0]} T10
+place_ports {dig[7]} U13
+place_ports {dig[6]} K2
+place_ports {dig[5]} T14
+place_ports {dig[4]} P14
+place_ports {dig[3]} J14
+place_ports {dig[2]} T9
+place_ports {dig[1]} J18
+place_ports {dig[0]} J17
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dig[7]} {dig[6]} {dig[5]} {dig[4]} {dig[3]} {dig[2]} {dig[1]} {dig[0]}]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]

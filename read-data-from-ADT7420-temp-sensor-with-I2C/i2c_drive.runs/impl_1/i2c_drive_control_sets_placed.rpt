@@ -1,0 +1,72 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Fri Dec 30 12:27:09 2016
+| Host         : Aarent running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file i2c_drive_control_sets_placed.rpt
+| Design       : i2c_drive
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    19 |
+| Unused register locations in slices containing registers |   111 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            4 |
+| No           | No                    | Yes                    |              43 |           14 |
+| No           | Yes                   | No                     |              36 |           15 |
+| Yes          | No                    | No                     |               2 |            1 |
+| Yes          | No                    | Yes                    |              18 |           14 |
+| Yes          | Yes                   | No                     |              10 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------+------------------------------+------------------+----------------+
+|  Clock Signal  |         Enable Signal        |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++----------------+------------------------------+------------------------------+------------------+----------------+
+|  clk1_reg_n_0  | scan_led_inst/dig[4]_i_1_n_0 | scan_led_inst/dig[2]_i_1_n_0 |                1 |              1 |
+|  clk1_reg_n_0  | scan_led_inst/dig[4]_i_1_n_0 | scan_led_inst/dig[3]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | read_data[0]_i_1_n_0         | rst_n_IBUF                   |                1 |              1 |
+|  clk_IBUF_BUFG | read_data[1]_i_1_n_0         | rst_n_IBUF                   |                1 |              1 |
+|  clk_IBUF_BUFG | read_data[2]_i_1_n_0         | rst_n_IBUF                   |                1 |              1 |
+|  clk_IBUF_BUFG | read_data[3]_i_1_n_0         | rst_n_IBUF                   |                1 |              1 |
+|  clk_IBUF_BUFG | read_data[4]_i_1_n_0         | rst_n_IBUF                   |                1 |              1 |
+|  clk_IBUF_BUFG | read_data[5]_i_1_n_0         | rst_n_IBUF                   |                1 |              1 |
+|  clk_IBUF_BUFG | read_data[6]_i_1_n_0         | rst_n_IBUF                   |                1 |              1 |
+|  clk_IBUF_BUFG | scl_r_i_1_n_0                | rst_n_IBUF                   |                1 |              1 |
+|  clk1_reg_n_0  | scan_led_inst/dig[4]_i_1_n_0 |                              |                1 |              2 |
+|  clk1_reg_n_0  | scan_led_inst/dig[4]_i_1_n_0 | scan_led_inst/dig[1]_i_1_n_0 |                1 |              2 |
+|  clk_IBUF_BUFG | sw1_r                        | rst_n_IBUF                   |                1 |              2 |
+|  clk1_reg_n_0  |                              | scan_led_inst/a[3]_i_1_n_0   |                1 |              4 |
+|  clk_IBUF_BUFG |                              |                              |                4 |              4 |
+|  clk_IBUF_BUFG | cstate[3]_i_1_n_0            | rst_n_IBUF                   |                3 |              4 |
+|  clk_IBUF_BUFG | num                          | rst_n_IBUF                   |                2 |              4 |
+|  clk1_reg_n_0  | scan_led_inst/dig[4]_i_1_n_0 | scan_led_inst/seg[5]_i_1_n_0 |                5 |              6 |
+|  clk_IBUF_BUFG |                              | rst_n_IBUF                   |               28 |             75 |
++----------------+------------------------------+------------------------------+------------------+----------------+
+
+

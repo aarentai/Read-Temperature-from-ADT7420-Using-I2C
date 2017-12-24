@@ -1,0 +1,329 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Dec 29 23:28:18 2016
+# Process ID: 5068
+# Current directory: E:/vivado_projects/i2c_drive
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15480 E:\vivado_projects\i2c_drive\i2c_drive.xpr
+# Log file: E:/vivado_projects/i2c_drive/vivado.log
+# Journal file: E:/vivado_projects/i2c_drive\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_projects/i2c_drive/i2c_drive.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 763.188 ; gain = 137.109
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v" into library work [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:1]
+[Thu Dec 29 23:29:55 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v" into library work [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:1]
+[Thu Dec 29 23:31:08 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+Finished Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1070.348 ; gain = 275.285
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v" into library work [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:1]
+[Thu Dec 29 23:35:57 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+Finished Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+open_hw
+launch_runs impl_1 -to_step write_bitstream
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.278 . Memory (MB): peak = 1527.703 ; gain = 0.000
+[Thu Dec 29 23:39:43 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1527.703 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710491A
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+place_ports sw1 U11
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.135 . Memory (MB): peak = 1566.938 ; gain = 0.000
+[Thu Dec 29 23:45:49 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v" into library work [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:1]
+[Thu Dec 29 23:55:32 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+Finished Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dis_data[15]} {dis_data[14]} {dis_data[13]} {dis_data[12]} {dis_data[11]} {dis_data[10]} {dis_data[9]} {dis_data[8]} {dis_data[7]} {dis_data[6]} {dis_data[5]} {dis_data[4]} {dis_data[3]} {dis_data[2]} {dis_data[1]} {dis_data[0]}]]
+place_ports {dis_data[15]} V11
+startgroup
+set_property package_pin "" [get_ports [list  sw2]]
+place_ports {dis_data[14]} V12
+endgroup
+place_ports sw2 V10
+place_ports {dis_data[13]} V14
+place_ports {dis_data[12]} V15
+place_ports {dis_data[11]} T16
+place_ports {dis_data[10]} U14
+place_ports {dis_data[9]} T15
+place_ports {dis_data[8]} V16
+save_constraints
+launch_runs impl_1 -to_step write_bitstream
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 1605.914 ; gain = 0.000
+[Thu Dec 29 23:59:09 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+reset_run impl_1 -noclean_dir 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Dec 30 00:01:46 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+[Fri Dec 30 00:01:46 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Dec 30 00:37:44 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+[Fri Dec 30 00:37:44 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Dec 30 00:50:43 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+[Fri Dec 30 00:50:44 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close [ open E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v w ]
+add_files E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v
+update_compile_order -fileset sources_1
+close [ open E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/convert_to_bcd.v w ]
+add_files E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/convert_to_bcd.v
+update_compile_order -fileset sources_1
+remove_files E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/convert_to_bcd.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v" into library work [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:1]
+[Fri Dec 30 01:29:35 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v" into library work [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:1]
+[Fri Dec 30 01:31:15 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+Finished Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+set_property IOSTANDARD LVCMOS33 [get_ports [list {seg[6]} {seg[5]} {seg[4]} {seg[3]} {seg[2]} {seg[1]} {seg[0]}]]
+place_ports {seg[6]} L18
+place_ports {seg[5]} T11
+place_ports {seg[4]} P15
+place_ports {seg[3]} K13
+place_ports {seg[2]} K16
+place_ports {seg[1]} R10
+place_ports {seg[0]} T10
+place_ports {dig[7]} U13
+place_ports {dig[6]} K2
+place_ports {dig[5]} T14
+place_ports {dig[4]} P14
+place_ports {dig[3]} J14
+place_ports {dig[2]} T9
+place_ports {dig[1]} J18
+place_ports {dig[0]} J17
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dig[7]} {dig[6]} {dig[5]} {dig[4]} {dig[3]} {dig[2]} {dig[1]} {dig[0]}]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1624.863 ; gain = 0.000
+[Fri Dec 30 01:36:44 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Dec 30 01:44:08 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+[Fri Dec 30 01:44:08 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Dec 30 01:53:04 2016] Launched synth_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log
+[Fri Dec 30 01:53:04 2016] Launched impl_1...
+Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 30 01:57:06 2016...

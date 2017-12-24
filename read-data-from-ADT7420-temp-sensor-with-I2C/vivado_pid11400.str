@@ -1,0 +1,1277 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 11400
+
+Current time: 	12/30/16 9:32:06 AM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=宋体,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	E:/Vivado/2016.2/tps/win64/jre
+
+User name: 	浩程
+User home directory: C:/Users/浩程
+User working directory: E:/vivado_projects/i2c_drive
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI Base root directory: E:/Vivado
+RDI Data directory: E:/Vivado/2016.2/data
+RDI Bin directory: E:/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/浩程/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/浩程/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	209 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 427 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 42 MB (+41866kb) [00:00:17]
+// [Engine Memory]: 399 MB (+266742kb) [00:00:17]
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\vivado_projects\i2c_drive\i2c_drive.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/vivado_projects/i2c_drive/i2c_drive.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// [GUI Memory]: 50 MB (+6034kb) [00:00:21]
+// [Engine Memory]: 434 MB (+15468kb) [00:00:21]
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/vivado_projects/i2c_drive/i2c_drive.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 450 MB. GUI used memory: 28 MB. Current time: 12/30/16 9:32:08 AM CST
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 506 MB (+53116kb) [00:00:29]
+// [GUI Memory]: 56 MB (+3944kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 64 MB (+5245kb) [00:00:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: i2c_drive; location: E:/vivado_projects/i2c_drive; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 779.914 ; gain = 116.547 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 532 MB (+822kb) [00:00:36]
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (i2c_drive.v) elapsed time: 0.4s
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2c_drive (i2c_drive.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2c_drive (i2c_drive.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("i2c_drive.v", 202, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 546 MB. GUI used memory: 34 MB. Current time: 12/30/16 9:33:13 AM CST
+// [GUI Memory]: 68 MB (+260kb) [00:02:58]
+// [Engine Memory]: 568 MB (+9558kb) [00:03:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 568 MB. GUI used memory: 34 MB. Current time: 12/30/16 9:34:53 AM CST
+// Elapsed time: 267 seconds
+selectCodeEditor("i2c_drive.v", 189, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 54 seconds
+selectCodeEditor("i2c_drive.v", 241, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+// [Engine Memory]: 605 MB (+9020kb) [00:07:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 35 MB. Current time: 12/30/16 9:39:23 AM CST
+// [GUI Memory]: 72 MB (+709kb) [00:09:04]
+// Elapsed time: 315 seconds
+selectCodeEditor("i2c_drive.v", 517, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 76 MB (+124kb) [00:13:53]
+// Elapsed time: 419 seconds
+selectCodeEditor("i2c_drive.v", 235, 54); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("i2c_drive.v", 344, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 207, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 207, 145, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("i2c_drive.v", 207, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 228, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 219, 151); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("i2c_drive.v", 192, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("i2c_drive.v", 245, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 245, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 80 MB (+121kb) [00:19:27]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("i2c_drive.v", 66, 72); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 112, 67); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 133, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 100, 391); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 247, 154); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 218, 148); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 204, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 252, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("i2c_drive.v", 206, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("i2c_drive.v", 124, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 211, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 125, 305); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 122, 308); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 234, 305); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 85 MB (+1111kb) [00:21:02]
+// Elapsed time: 29 seconds
+selectCodeEditor("i2c_drive.v", 272, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 307, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("i2c_drive.v", 416, 271); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "i2c_drive.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 295, 71); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "i2c_drive.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 247, 94); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2c_drive (i2c_drive.v), scan_led_inst - scan_led (scan_led.v)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2c_drive (i2c_drive.v), scan_led_inst - scan_led (scan_led.v)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 91 MB (+2722kb) [00:22:14]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2c_drive (i2c_drive.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2c_drive (i2c_drive.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scan_led.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 47 seconds
+selectCodeEditor("scan_led.v", 100, 204); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("scan_led.v", 53, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 209, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("scan_led.v", 139, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 42, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 412 seconds
+selectCodeEditor("scan_led.v", 0, 87); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 157, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("scan_led.v", 13, 89); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("scan_led.v", 50, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 10, 89); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 10, 87); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 5, 87); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 117, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 25, 88); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 25, 88, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("scan_led.v", 43, 92); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 43, 92, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 40, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 117, 75); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 108, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("scan_led.v", 20, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 20, 135, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 38, 151); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 38, 151, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 195, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("scan_led.v", 177, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("scan_led.v", 222, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 204, 165); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("scan_led.v", 118, 308); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 241, 308); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 24, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 24, 291, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 292, 317); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 251, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 298, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 260, 308); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 397, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("scan_led.v", 392, 308); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 128, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 401, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 430, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 16, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 16, 247, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 42, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 36, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 195, 340); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 195, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("scan_led.v", 473, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 78, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 352, 353); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("scan_led.v", 274, 328); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 474, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 12, 371); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 12, 371, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("scan_led.v", 43, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 43, 231, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 14, 372); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 14, 372, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Dec 30 10:08:09 2016] Launched synth_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log [Fri Dec 30 10:08:09 2016] Launched impl_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 613 MB. GUI used memory: 37 MB. Current time: 12/30/16 10:09:23 AM CST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 207 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+// Elapsed time: 63 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.2   **** Build date : Jun  2 2016-16:57:03     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710491A 
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 116 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scan_led.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("scan_led.v", 130, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("scan_led.v", 520, 113); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 1, 174); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 391 seconds
+selectCodeEditor("scan_led.v", 70, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 119, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Dec 30 10:22:28 2016] Launched synth_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log [Fri Dec 30 10:22:28 2016] Launched impl_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 185 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 333 seconds
+selectCodeEditor("scan_led.v", 5, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 13, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 4, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 119, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 29 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Dec 30 10:31:56 2016] Launched synth_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log [Fri Dec 30 10:31:57 2016] Launched impl_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log 
+// TclEventType: RUN_FAILED
+// ap:G (cv:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 20 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Synthesis Failed"); // ap:G (cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // h:JCheckBox (JPanel:JComponent, cv:JFrame): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-2715] syntax error near begin [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:68]. ]", 29, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;68;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 62, 116); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 100 MB (+4251kb) [01:00:41]
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Dec 30 10:32:33 2016] Launched synth_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log [Fri Dec 30 10:32:33 2016] Launched impl_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 194 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 613 MB. GUI used memory: 44 MB. Current time: 12/30/16 10:39:24 AM CST
+// Elapsed time: 216 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, i2c_drive (i2c_drive.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "i2c_drive.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 273, 409); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cv:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (F:JPanel, b:g)
+// J:x (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "top"); // ao:JTextField (JPanel:JComponent, J:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:x)
+dismissDialog("Create Source File"); // J:x (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // b:g (cv:JFrame)
+// Tcl Message: close [ open E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/top.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/top.v 
+// M:x (cv:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, M:x)
+// TclEventType: DG_GRAPH_STALE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // M:x (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("top.v", 120, 390); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "i2c_drive.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("i2c_drive.v", 48, 89); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("i2c_drive.v", 89, 120, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 90, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 116, 155); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 60, 73, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 95, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 112, 250); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 1, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 47, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 72, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 45, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 188, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 181, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 203, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 121, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 50, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 38, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 129, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 53, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 116, 253); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "i2c_drive.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 111, 132); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 78, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "i2c_drive.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 211, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 79, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 203, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 80, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 26, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 88, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 130, 375); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 91, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 139, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 169, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 147, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 150, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 139, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 85, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 64, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 97, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 95, 288, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 80, 292); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 80, 292, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 140, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 168, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 64, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 69, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 69, 310, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 63, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 121, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 125, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 125, 306, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 149, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 137, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 119, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 162, 324); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 103 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 3, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectCodeEditor("top.v", 59, 73); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// G:be (cv:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Fri Dec 30 10:46:26 2016] Launched synth_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 84 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bL:g (cv:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 666 MB. GUI used memory: 46 MB. Current time: 12/30/16 10:48:02 AM CST
+// [Engine Memory]: 666 MB (+32974kb) [01:16:16]
+// [Engine Memory]: 710 MB (+10368kb) [01:16:17]
+// Xgd.load filename: E:/Vivado/2016.2/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 0.9s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 2s
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 785 MB (+41185kb) [01:16:20]
+// Package: addNotify
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.2 INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc] 
+// Tcl Message: Finished Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 1 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 1 instances  
+// 'dG' command handler elapsed time: 23 seconds
+// N:a (cv:JFrame): Critical Messages: addNotify
+// Elapsed time: 24 seconds
+dismissDialog("Open Synthesized Design"); // bL:g (cv:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, N:a)
+dismissDialog("Critical Messages"); // N:a (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 832 MB. GUI used memory: 71 MB. Current time: 12/30/16 10:48:19 AM CST
+// [Engine Memory]: 832 MB (+8899kb) [01:16:33]
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (8) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // L:as (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [Engine Memory]: 882 MB (+8858kb) [01:16:42]
+selectCodeEditor("top.v", 53, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+// [Engine Memory]: 930 MB (+3455kb) [01:16:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,042 MB. GUI used memory: 71 MB. Current time: 12/30/16 10:48:34 AM CST
+// RouteApi::initDelayMediator elapsed time: 20.8s
+selectCodeEditor("top.v", 77, 153); // bH:N (JPanel:JComponent, cv:JFrame)
+// [Engine Memory]: 1,168 MB (+201102kb) [01:16:50]
+// Elapsed time: 17 seconds
+selectCodeEditor("top.v", 131, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 47, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 52, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 56, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 119, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 144, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 128, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,188 MB. GUI used memory: 71 MB. Current time: 12/30/16 10:49:19 AM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Fri Dec 30 10:49:22 2016] Launched synth_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log 
+// [GUI Memory]: 107 MB (+2118kb) [01:17:36]
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Synthesis Completed: addNotify
+// [GUI Memory]: 113 MB (+613kb) [01:19:03]
+// Elapsed time: 147 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bL:g (cv:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,204 MB. GUI used memory: 70 MB. Current time: 12/30/16 10:51:52 AM CST
+// Engine heap size: 1,204 MB. GUI used memory: 70 MB. Current time: 12/30/16 10:51:52 AM CST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,204 MB. GUI used memory: 50 MB. Current time: 12/30/16 10:51:55 AM CST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: E:/Vivado/2016.2/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 0.7s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.7s
+// Package: addNotify
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc] 
+// Tcl Message: Finished Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 1 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 1 instances  
+// N:a (cv:JFrame): Critical Messages: addNotify
+dismissDialog("Reloading design"); // bL:g (cv:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, N:a)
+dismissDialog("Critical Messages"); // N:a (cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cv:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, true); // h:JCheckBox (JPanel:JComponent, cv:JFrame): TRUE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:173]. ]", 32, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;173;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:188]. ]", 33, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;188;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:149]. ]", 34, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;149;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\i2c_drive.v, [Synth 8-638] synthesizing module 'i2c_drive' [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:3]. ]", 37, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\i2c_drive.v;-;;-;16;-;line;-;3;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\i2c_drive.v, [Synth 8-256] done synthesizing module 'i2c_drive' (2#1) [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:3]. ]", 38, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\i2c_drive.v;-;;-;16;-;line;-;3;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, open_run synth_1 -name synth_1. , E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\constrs_1\\new\\xdc.xdc]", 60, true); // al:k (JViewport:JComponent, cv:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+// [GUI Memory]: 122 MB (+2876kb) [01:20:58]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesized Design]", 18, true); // x:Y (w:G, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesized Design]", 18, true); // x:Y (w:G, cv:JFrame) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Device view-level: 0.0
+selectTab((HResource) null, (HResource) null, "I/O Ports", 6); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "seg (7) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 2); // L:as (JViewport:JComponent, cv:JFrame)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "seg (7) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 2); // L:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "dig (8) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1); // L:as (JViewport:JComponent, cv:JFrame)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "dig (8) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1); // L:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (6) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 3); // L:as (JViewport:JComponent, cv:JFrame)
+// [GUI Memory]: 129 MB (+1194kb) [01:21:17]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:173]. ]", 32, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;173;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 232, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 190, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 211, 115); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 148, 132); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 196, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 196, 129, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("scan_led.v", 296, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 231, 141); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 239, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 241, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 184, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 306, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:67]. ]", 31, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;67;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 394, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 399, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 25, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 25, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 362, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 279, 146); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 368, 154); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:173]. ]", 32, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;173;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:188]. ]", 33, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;188;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:149]. ]", 34, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;149;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\sources_1\\new\\scan_led.v, [Synth 8-256] done synthesizing module 'scan_led' (1#1) [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:45]. ]", 35, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\sources_1\new\scan_led.v;-;;-;16;-;line;-;45;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xdc.xdc", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 37, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Dec 30 10:55:02 2016] Launched synth_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log [Fri Dec 30 10:55:02 2016] Launched impl_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 204 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\constrs_1\\new\\xdc.xdc, [Common 17-55] 'set_property' expects at least one object. [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc:41]. ]", 64, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\constrs_1\new\xdc.xdc;-;;-;16;-;line;-;41;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+// [GUI Memory]: 135 MB (+155kb) [01:26:50]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, E:\\vivado_projects\\i2c_drive\\i2c_drive.srcs\\constrs_1\\new\\xdc.xdc, [Common 17-55] 'set_property' expects at least one object. [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc:4]. ]", 103, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\vivado_projects\i2c_drive\i2c_drive.srcs\constrs_1\new\xdc.xdc;-;;-;16;-;line;-;4;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// HOptionPane Error: "The file 'E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit' does not<br>exist.<br>Please specify a valid file name. (Invalid File Name)"
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// HOptionPane Error: "The file 'E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit' does not<br>exist.<br>Please specify a valid file name. (Invalid File Name)"
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aW:ak)
+// 'A' command handler elapsed time: 15 seconds
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 39, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// HOptionPane Error: "The file 'E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit' does not<br>exist.<br>Please specify a valid file name. (Invalid File Name)"
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aW:ak)
+// 'A' command handler elapsed time: 13 seconds
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+selectCodeEditor("xdc.xdc", 209, 219); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scan_led.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "i2c_drive.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 108 seconds
+selectCodeEditor("i2c_drive.v", 1, 45); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "i2c_drive.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 74 seconds
+selectCodeEditor("i2c_drive.v", 154, 231, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("i2c_drive.v", 107, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "i2c_drive.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scan_led.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("scan_led.v", 0, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "scan_led.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 2, 71); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 193 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xdc.xdc", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesized Design]", 18, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+floatFrame(PAResourceOtoP.PAViews_IO_PORTS, "I/O Ports"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// Elapsed time: 43 seconds
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "dig (8) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1); // L:as (JViewport:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 29 seconds
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "seg (7) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 10); // L:as (JViewport:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 49 seconds
+dockFrame(PAResourceOtoP.PAViews_IO_PORTS, "I/O Ports"); // ao:DockableFrame (FrameContainer:JideTabbedPane, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 251 seconds
+selectCodeEditor("xdc.xdc", 168, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "i2c_drive.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 329, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 316, 137); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 307, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 298, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 271, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 37, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Dec 30 11:14:27 2016] Launched impl_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 61 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 39, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// HOptionPane Error: "The file 'E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit' does not<br>exist.<br>Please specify a valid file name. (Invalid File Name)"
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+setText(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/top.bit"); // aq:ao (ap:JPanel, aW:ak)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 15 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectCodeEditor("xdc.xdc", 191, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scan_led.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aB:g)
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectCodeEditor("top.v", 140, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 143 MB (+371kb) [01:44:50]
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aB:g)
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+selectCodeEditor("top.v", 209, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 14, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectCodeEditor("top.v", 109, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 127, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "i2c_drive.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 120, 137); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "i2c_drive.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 91, 148); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 53, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 168, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 175, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 55, 50); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 182, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// G:be (cv:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Fri Dec 30 11:18:49 2016] Launched synth_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 44 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bL:g (cv:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,204 MB. GUI used memory: 75 MB. Current time: 12/30/16 11:19:37 AM CST
+// Engine heap size: 1,204 MB. GUI used memory: 75 MB. Current time: 12/30/16 11:19:37 AM CST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,204 MB. GUI used memory: 52 MB. Current time: 12/30/16 11:19:39 AM CST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: E:/Vivado/2016.2/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 0.6s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.4s
+// Package: addNotify
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc] Finished Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 1 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 1 instances  
+dismissDialog("Reloading design"); // bL:g (cv:JFrame)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (6) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 4); // L:as (JViewport:JComponent, cv:JFrame)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (6) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 4); // L:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "dis_data (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 2); // L:as (JViewport:JComponent, cv:JFrame)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "dis_data (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 2); // L:as (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 37, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // G:be (cv:JFrame)
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: Writing placer database... Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.147 . Memory (MB): peak = 1689.922 ; gain = 0.000 
+// Tcl Message: [Fri Dec 30 11:19:50 2016] Launched impl_1... Run output will be captured here: E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/runme.log 
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 202 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/vivado_projects/i2c_drive/i2c_drive.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectCodeEditor("i2c_drive.v", 33, 56); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/top.v 
+// aB:g (cv:JFrame): Remove Sources: addNotify
+// bL:g (aB:g):  Remove Sources : addNotify
+dismissDialog("Remove Sources"); // bL:g (aB:g)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 17 seconds
+selectCodeEditor("scan_led.v", 130, 36); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 254, 66); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 255, 122); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 251, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 230, 146); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("scan_led.v", 306, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scan_led.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("i2c_drive.v", 246, 403); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "i2c_drive.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "i2c_drive.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "scan_led.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cv:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
