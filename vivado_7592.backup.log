@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 04 09:17:17 2017
+# Process ID: 7592
+# Current directory: D:/暂存处/学习/数字逻辑/综合设计/i2c_drive
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9992 D:\暂存处\学习\数字逻辑\综合设计\i2c_drive\i2c_drive.xpr
+# Log file: D:/暂存处/学习/数字逻辑/综合设计/i2c_drive/vivado.log
+# Journal file: D:/暂存处/学习/数字逻辑/综合设计/i2c_drive\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/暂存处/学习/数字逻辑/综合设计/i2c_drive/i2c_drive.xpr
+INFO: [Project 1-313] Project file moved from 'E:/vivado_projects/i2c_drive' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 814.391 ; gain = 151.672
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 04 09:29:25 2017...

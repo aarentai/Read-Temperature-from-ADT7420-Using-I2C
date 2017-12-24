@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jun 15 22:51:22 2017
+# Process ID: 7164
+# Current directory: D:/文档/数字逻辑/综合设计/i2c_drive
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10416 D:\文档\数字逻辑\综合设计\i2c_drive\i2c_drive.xpr
+# Log file: D:/文档/数字逻辑/综合设计/i2c_drive/vivado.log
+# Journal file: D:/文档/数字逻辑/综合设计/i2c_drive\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/文档/数字逻辑/综合设计/i2c_drive/i2c_drive.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,456 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Dec 30 12:25:53 2016
+# Process ID: 13936
+# Current directory: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1
+# Command line: vivado.exe -log i2c_drive.vds -mode batch -messageDb vivado.pb -notrace -source i2c_drive.tcl
+# Log file: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1/i2c_drive.vds
+# Journal file: E:/vivado_projects/i2c_drive/i2c_drive.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source i2c_drive.tcl -notrace
+Command: synth_design -top i2c_drive -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1464 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 304.520 ; gain = 97.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'i2c_drive' [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:3]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter START1 bound to: 4'b0001 
+	Parameter ADD1 bound to: 4'b0010 
+	Parameter ACK1 bound to: 4'b0011 
+	Parameter ADD2 bound to: 4'b0100 
+	Parameter ACK2 bound to: 4'b0101 
+	Parameter START2 bound to: 4'b0110 
+	Parameter ADD3 bound to: 4'b0111 
+	Parameter ACK3 bound to: 4'b1000 
+	Parameter DATA1 bound to: 4'b1001 
+	Parameter ACK4 bound to: 4'b1010 
+	Parameter DATA2 bound to: 4'b1011 
+	Parameter NACK bound to: 4'b1100 
+	Parameter STOP1 bound to: 4'b1101 
+	Parameter STOP2 bound to: 4'b1110 
+INFO: [Synth 8-638] synthesizing module 'scan_led' [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:45]
+	Parameter AN0 bound to: 8'b11111110 
+	Parameter AN1 bound to: 8'b11111101 
+	Parameter AN2 bound to: 8'b11111011 
+	Parameter AN3 bound to: 8'b11110111 
+	Parameter AN4 bound to: 8'b11101111 
+	Parameter AN5 bound to: 8'b11011111 
+	Parameter AN6 bound to: 8'b10111111 
+	Parameter AN7 bound to: 8'b01111111 
+	Parameter zero bound to: 7'b1000000 
+	Parameter one bound to: 7'b1111001 
+	Parameter two bound to: 7'b0100100 
+	Parameter three bound to: 7'b0110000 
+	Parameter four bound to: 7'b0011001 
+	Parameter five bound to: 7'b0010010 
+	Parameter six bound to: 7'b0000010 
+	Parameter seven bound to: 7'b1111000 
+	Parameter eigth bound to: 7'b0000000 
+	Parameter nine bound to: 7'b0010000 
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:84]
+INFO: [Synth 8-256] done synthesizing module 'scan_led' (1#1) [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/scan_led.v:45]
+WARNING: [Synth 8-5788] Register db_r_reg in module i2c_drive is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:157]
+INFO: [Synth 8-256] done synthesizing module 'i2c_drive' (2#1) [E:/vivado_projects/i2c_drive/i2c_drive.srcs/sources_1/new/i2c_drive.v:3]
+WARNING: [Synth 8-3331] design scan_led has unconnected port dis_data[6]
+WARNING: [Synth 8-3331] design scan_led has unconnected port dis_data[5]
+WARNING: [Synth 8-3331] design scan_led has unconnected port dis_data[4]
+WARNING: [Synth 8-3331] design scan_led has unconnected port dis_data[3]
+WARNING: [Synth 8-3331] design scan_led has unconnected port dis_data[2]
+WARNING: [Synth 8-3331] design scan_led has unconnected port dis_data[1]
+WARNING: [Synth 8-3331] design scan_led has unconnected port dis_data[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 341.105 ; gain = 133.824
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 341.105 ; gain = 133.824
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+Finished Parsing XDC File [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/vivado_projects/i2c_drive/i2c_drive.srcs/constrs_1/new/xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/i2c_drive_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/i2c_drive_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 641.957 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "sw1_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "scl_r" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "scl_r" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "cstate" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sda_r" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sda_r" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sda_link" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sda_link" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 14    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  27 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	  12 Input      8 Bit        Muxes := 1     
+	  17 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	  11 Input      7 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 14    
+	   3 Input      4 Bit        Muxes := 5     
+	  16 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 2     
+	  16 Input      3 Bit        Muxes := 2     
+	  16 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+	   6 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+	  17 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module i2c_drive 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  27 Input     16 Bit        Muxes := 1     
+	  12 Input      8 Bit        Muxes := 1     
+	  17 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 5     
+	  16 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 2     
+	  16 Input      3 Bit        Muxes := 2     
+	  16 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 15    
+	   4 Input      1 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+	  17 Input      1 Bit        Muxes := 1     
+Module scan_led 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 13    
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	  11 Input      7 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sw1_r" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 641.957 ; gain = 434.676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'db_r_reg[1]' (FDE) to 'db_r_reg[2]'
+INFO: [Synth 8-3886] merging instance 'db_r_reg[3]' (FDE) to 'db_r_reg[6]'
+INFO: [Synth 8-3886] merging instance 'db_r_reg[4]' (FDE) to 'db_r_reg[7]'
+INFO: [Synth 8-3886] merging instance 'db_r_reg[5]' (FDE) to 'db_r_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\db_r_reg[6] )
+INFO: [Synth 8-3886] merging instance 'scan_led_inst/dig_reg[5]' (FDE) to 'scan_led_inst/dig_reg[6]'
+INFO: [Synth 8-3886] merging instance 'scan_led_inst/dig_reg[6]' (FDE) to 'scan_led_inst/dig_reg[7]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\scan_led_inst/dig_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (scan_led_inst/dig_reg[7]) is unused and will be removed from module i2c_drive.
+WARNING: [Synth 8-3332] Sequential element (scan_led_inst/dig_reg[6]) is unused and will be removed from module i2c_drive.
+WARNING: [Synth 8-3332] Sequential element (scan_led_inst/dig_reg[5]) is unused and will be removed from module i2c_drive.
+WARNING: [Synth 8-3332] Sequential element (db_r_reg[6]) is unused and will be removed from module i2c_drive.
+WARNING: [Synth 8-3332] Sequential element (db_r_reg[5]) is unused and will be removed from module i2c_drive.
+WARNING: [Synth 8-3332] Sequential element (db_r_reg[4]) is unused and will be removed from module i2c_drive.
+WARNING: [Synth 8-3332] Sequential element (db_r_reg[3]) is unused and will be removed from module i2c_drive.
+WARNING: [Synth 8-3332] Sequential element (db_r_reg[1]) is unused and will be removed from module i2c_drive.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 641.957 ; gain = 434.676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 641.957 ; gain = 434.676
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    13|
+|3     |LUT1   |    56|
+|4     |LUT2   |    15|
+|5     |LUT3   |    17|
+|6     |LUT4   |    42|
+|7     |LUT5   |    53|
+|8     |LUT6   |    77|
+|9     |MUXF7  |     2|
+|10    |FDCE   |    55|
+|11    |FDPE   |     6|
+|12    |FDRE   |    42|
+|13    |FDSE   |    10|
+|14    |IBUF   |     4|
+|15    |IOBUF  |     1|
+|16    |OBUF   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+---------+------+
+|      |Instance        |Module   |Cells |
++------+----------------+---------+------+
+|1     |top             |         |   426|
+|2     |  scan_led_inst |scan_led |    63|
++------+----------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 641.957 ; gain = 434.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 641.957 ; gain = 114.797
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 641.957 ; gain = 434.676
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 641.957 ; gain = 418.316
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 641.957 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 30 12:26:33 2016...

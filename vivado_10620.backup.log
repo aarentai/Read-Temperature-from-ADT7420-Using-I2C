@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Jun 04 13:39:51 2017
+# Process ID: 10620
+# Current directory: D:/文档/数字逻辑/综合设计/i2c_drive
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4072 D:\文档\数字逻辑\综合设计\i2c_drive\i2c_drive.xpr
+# Log file: D:/文档/数字逻辑/综合设计/i2c_drive/vivado.log
+# Journal file: D:/文档/数字逻辑/综合设计/i2c_drive\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/文档/数字逻辑/综合设计/i2c_drive/i2c_drive.xpr
+INFO: [Project 1-313] Project file moved from 'D:/暂存处/学习/数字逻辑/综合设计/i2c_drive' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 736.680 ; gain = 115.621
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710493A
+set_property PROGRAM.FILE {D:/文档/数字逻辑/综合设计/i2c_drive/i2c_drive.runs/impl_1/i2c_drive.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Jun 04 13:41:20 2017] Launched impl_1...
+Run output will be captured here: D:/文档/数字逻辑/综合设计/i2c_drive/i2c_drive.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292710493A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710493A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 04 14:28:37 2017...
